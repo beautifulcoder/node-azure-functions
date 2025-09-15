@@ -1,0 +1,12 @@
+.git*
+.vscode
+local.settings.json
+test
+node_modules/@types/
+node_modules/@typesspec
+node_modules/@eslint/
+node_modules/@esquery
+node_modules/azure-functions-core-tools/
+node_modules/eslint/
+node_modules/globals/
+node_modules/typescript/

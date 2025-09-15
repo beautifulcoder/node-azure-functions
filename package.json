@@ -1,0 +1,22 @@
+{
+  "name": "pizza-api",
+  "version": "1.0.0",
+  "description": "Build a pizza API on Azure Functions",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "build": "eslint . --fix",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.5.1",
+    "@azure/functions": "^4.0.0",
+    "joi": "^18.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "azure-functions-core-tools": "^4.x",
+    "eslint": "^9.35.0",
+    "globals": "^16.3.0"
+  }
+}
