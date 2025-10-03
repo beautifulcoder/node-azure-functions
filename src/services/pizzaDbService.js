@@ -9,6 +9,7 @@ class PizzaDbService {
 
   async initialize() {
     if (this.initializationPromise) {
+      // Return the existing initialization promise if already in progress
       return this.initializationPromise;
     }
 
