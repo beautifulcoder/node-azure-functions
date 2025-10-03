@@ -1,4 +1,4 @@
-﻿const { app } = require("@azure/functions");
+const { app } = require("@azure/functions");
 const { getPizzaByIdHandler } = require("../handlers/getPizzaByIdHandler.js");
 
 app.http("GetPizzaById", {

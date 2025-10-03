@@ -1,4 +1,4 @@
-﻿const { createJsonResponse, handleError } = require("../utils/httpUtils.js");
+const { createJsonResponse, handleError } = require("../utils/httpUtils.js");
 const pizzaDbService = require("../services/pizzaDbService.js");
 
 const deletePizzaHandler = async (request, context) => {

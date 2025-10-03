@@ -1,4 +1,4 @@
-﻿const createJsonResponse = (status, body = null) => {
+const createJsonResponse = (status, body = null) => {
   const response = {
     status,
     headers: { "Content-Type": "application/json" }

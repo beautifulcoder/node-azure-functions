@@ -1,4 +1,4 @@
-﻿const Joi = require("joi");
+const Joi = require("joi");
 
 const pizzaSchema = Joi.object({
   id: Joi.string().optional(),

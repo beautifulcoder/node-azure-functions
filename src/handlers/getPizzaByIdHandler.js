@@ -1,4 +1,4 @@
-﻿const pizzaDbService = require("../services/pizzaDbService.js");
+const pizzaDbService = require("../services/pizzaDbService.js");
 const { createJsonResponse, handleError } = require("../utils/httpUtils.js");
 
 const getPizzaByIdHandler = async (request, context) => {
