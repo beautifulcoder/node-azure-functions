@@ -4,7 +4,10 @@ const globals = require("globals");
 module.exports = [{
   files: ["**/*.js"],
   languageOptions: {
-    globals: globals.node,
+    globals: {
+      ...globals.node,
+      ...globals.mocha,
+    },
     sourceType: "commonjs",
   },
   rules: {

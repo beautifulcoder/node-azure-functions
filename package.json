@@ -6,7 +6,7 @@
   "scripts": {
     "start": "func start",
     "build": "eslint . --fix",
-    "test": "echo \"No tests yet...\""
+    "test": "mocha --require test/setup.js --timeout 5000 test/**/*.test.js --watch"
   },
   "dependencies": {
     "@azure/cosmos": "^4.5.1",
@@ -16,7 +16,10 @@
   "devDependencies": {
     "@eslint/js": "^9.35.0",
     "azure-functions-core-tools": "^4.x",
+    "chai": "^6.2.1",
     "eslint": "^9.35.0",
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "mocha": "^11.7.5",
+    "testcontainers": "^11.10.0"
   }
 }

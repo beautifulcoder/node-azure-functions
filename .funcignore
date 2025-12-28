@@ -5,8 +5,9 @@ test
 node_modules/@types/
 node_modules/@typesspec
 node_modules/@eslint/
-node_modules/@esquery
+node_modules/esquery
 node_modules/azure-functions-core-tools/
 node_modules/eslint/
-node_modules/globals/
-node_modules/typescript/
+node_modules/@eslint-community
+node_modules/mocha
+node_modules/testcontainers
